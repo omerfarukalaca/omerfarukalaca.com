@@ -13,7 +13,7 @@ summaryLength = 0
 
 [params]
   description = "Software Engineer & Tech Enthusiast"
-  favicon = "favicon.ico"
+  favicon = "👨‍💻"
   
   [params.homepage]
     layout = "profile"
