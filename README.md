@@ -1,21 +1,44 @@
-# omerfarukalaca.com
+# Personal Website
 
-Bu repository, kişisel web sitem [omerfarukalaca.com](https://omerfarukalaca.com)'un kaynak kodlarını içerir.
+This is my personal website built with [Hugo](https://gohugo.io/) and [Congo](https://github.com/jpanther/congo) theme. You can visit it at [omerfarukalaca.com](https://omerfarukalaca.com).
 
-## Teknolojiler
+## Features
 
-- [Hugo](https://gohugo.io/) - Statik site oluşturucu
-- [Congo Theme](https://github.com/jpanther/congo) - Hugo teması
+- Minimalist design
+- Responsive layout
+- Dark/Light mode support
+- Fast and lightweight
+- Easy to maintain
 
-## Geliştirme
+## Tech Stack
 
-Projeyi lokalde çalıştırmak için:
+- Hugo - Static site generator
+- Congo Theme - Modern and clean theme
+- GitHub Pages - Hosting
+- GitHub Actions - CI/CD
 
-1. Hugo'yu yükleyin
-2. Repository'yi klonlayın
-3. Alt modülleri güncelleyin: `git submodule update --init --recursive`
-4. Hugo sunucusunu başlatın: `hugo server -D`
+## Development
 
-## Lisans
+To run the site locally:
 
-MIT 
+```bash
+# Clone the repository
+git clone https://github.com/omerfarukalaca/omerfarukalaca.com.git
+
+# Navigate to the directory
+cd omerfarukalaca.com
+
+# Start Hugo server
+hugo server -D
+```
+
+## Credits
+
+- Built with [Hugo](https://gohugo.io/)
+- Theme: [Congo](https://github.com/jpanther/congo)
+- Development assistance: [Cursor](https://cursor.sh/) - AI-powered coding companion
+- Icons and emojis from [Emoji](https://emojipedia.org/)
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE). 
