@@ -1,0 +1,39 @@
+{{ define "header" }}
+<style>
+.minimal-logo {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #2D3748;
+  text-decoration: none;
+  padding: 0.5rem;
+  display: inline-block;
+  transition: opacity 0.2s ease;
+}
+
+.minimal-logo:hover {
+  opacity: 0.7;
+}
+
+.minimal-logo span {
+  display: inline-block;
+  border: 1.5px solid currentColor;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 4px;
+  margin-right: 2px;
+}
+
+.nav-container {
+  padding: 1rem;
+}
+</style>
+
+<div class="nav-container">
+  <a href="/" class="minimal-logo">
+    <span>Ö</span><span>F</span><span>A</span>
+  </a>
+</div>
+{{ end }} 

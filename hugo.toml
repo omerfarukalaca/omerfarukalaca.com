@@ -1,39 +1,42 @@
-baseURL = 'https://omerfarukalaca.com/'
-defaultContentLanguage = 'tr'
-languageCode = 'tr-tr'
-title = 'Ömer Faruk Alaca'
-theme = 'congo'
+baseURL = "https://omerfarukalaca.com/"
+defaultContentLanguage = "en"
+languageCode = "en-us"
+title = "Ömer Faruk Alaca"
+theme = "congo"
+
+enableRobotsTXT = true
+paginate = 10
+summaryLength = 0
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
 [params]
-  description = "Ömer Faruk Alaca'nın kişisel web sitesi"
+  description = "Software Engineer & Tech Enthusiast"
   
   [params.homepage]
     layout = "profile"
-    showRecent = true
+    showRecent = false
 
-  [params.profile]
-    subtitle = "Yazılım Geliştirici"
-    imageUrl = "/img/avatar.jpg"
-    imageTitle = "Ömer Faruk Alaca"
+  [params.header]
+    layout = "basic"
+    showTitle = false
 
-[menu]
-  [[menu.main]]
-    name = "Hakkımda"
-    pageRef = "about"
-    weight = 10
-  [[menu.main]]
-    name = "Blog"
-    pageRef = "posts"
-    weight = 20
-  [[menu.main]]
-    name = "Projeler"
-    pageRef = "projects"
-    weight = 30
-  [[menu.main]]
-    name = "İletişim"
-    pageRef = "contact"
-    weight = 40
+  [params.footer]
+    showCopyright = true
+    showThemeAttribution = true
+
+  [params.author]
+    name = "Ömer Faruk Alaca"
+    headline = "Software engineer by day, dad by night"
+    bio = "Building things at Trendyol and enjoying every moment with my little debugger"
+    links = [
+      { github = "https://github.com/omerfarukalaca" },
+      { linkedin = "https://linkedin.com/in/omerfarukalaca" }
+    ]
 
 [markup]
   [markup.highlight]
     style = "dracula"
+  [markup.goldmark.renderer]
+    unsafe = true
