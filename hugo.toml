@@ -1,0 +1,39 @@
+baseURL = 'https://omerfarukalaca.com/'
+defaultContentLanguage = 'tr'
+languageCode = 'tr-tr'
+title = 'Ömer Faruk Alaca'
+theme = 'congo'
+
+[params]
+  description = "Ömer Faruk Alaca'nın kişisel web sitesi"
+  
+  [params.homepage]
+    layout = "profile"
+    showRecent = true
+
+  [params.profile]
+    subtitle = "Yazılım Geliştirici"
+    imageUrl = "/img/avatar.jpg"
+    imageTitle = "Ömer Faruk Alaca"
+
+[menu]
+  [[menu.main]]
+    name = "Hakkımda"
+    pageRef = "about"
+    weight = 10
+  [[menu.main]]
+    name = "Blog"
+    pageRef = "posts"
+    weight = 20
+  [[menu.main]]
+    name = "Projeler"
+    pageRef = "projects"
+    weight = 30
+  [[menu.main]]
+    name = "İletişim"
+    pageRef = "contact"
+    weight = 40
+
+[markup]
+  [markup.highlight]
+    style = "dracula"
