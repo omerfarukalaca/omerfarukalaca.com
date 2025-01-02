@@ -1,5 +1,5 @@
 baseURL = "https://omerfarukalaca.com/"
-title = "Ömer Faruk Alaca | Senior Software Engineer"
+title = "👨🏻‍💻"
 theme = "PaperMod"
 defaultContentLanguage = "en"
 languageCode = "en-us"
@@ -18,7 +18,7 @@ keywords = ["Ömer Faruk Alaca", "Software Engineer", "Senior Developer", "Trend
 author = "Ömer Faruk Alaca"
 images = ["/img/profile.jpeg"]
 DateFormat = "January 2, 2006"
-defaultTheme = "auto"
+defaultTheme = "dark"
 disableThemeToggle = false
 ShowReadingTime = false
 ShowShareButtons = false
@@ -41,7 +41,7 @@ label.iconHeight = "35"
   [params.profileMode]
     enabled = true
     title = "Ömer Faruk Alaca"
-    subtitle = "🚀 Senior Software Engineer crafting scalable solutions [@Trendyol](https://www.linkedin.com/company/trendyolgroup)"
+    subtitle = "🚀 Crafting scalable solutions [@Trendyol](https://www.linkedin.com/company/trendyolgroup) | Senior Software Engineer"
     imageUrl = "https://raw.githubusercontent.com/omerfarukalaca/omerfarukalaca.com/main/static/img/profile.jpeg"
     imageWidth = 160
     imageHeight = 160
