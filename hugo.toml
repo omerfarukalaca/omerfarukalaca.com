@@ -1,43 +1,58 @@
 baseURL = "https://omerfarukalaca.com/"
+title = "👨🏻‍💻"
+theme = "PaperMod"
 defaultContentLanguage = "en"
 languageCode = "en-us"
-title = "Ömer Faruk Alaca"
-theme = "congo"
 
 enableRobotsTXT = true
-paginate = 10
-summaryLength = 0
-
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
 
 [params]
-  description = "Software Engineer & Tech Enthusiast"
-  favicon = "👨‍💻"
-  
-  [params.homepage]
-    layout = "profile"
-    showRecent = false
+env = "production"
+title = "👨‍💻"
+description = "Software Engineer"
+keywords = ["Blog", "Portfolio", "Software Engineer"]
+author = "Ömer Faruk Alaca"
+images = ["/img/profile.jpeg"]
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = false
+ShowShareButtons = false
+ShowPostNavLinks = false
+ShowBreadCrumbs = false
+ShowCodeCopyButtons = true
+ShowWordCount = false
+ShowRssButtonInSectionTermList = false
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
+label.icon = "👨‍💻"
+label.iconHeight = "35"
 
-  [params.header]
-    layout = "basic"
-    showTitle = false
+  [params.profileMode]
+    enabled = true
+    title = "Ömer Faruk Alaca"
+    subtitle = "🚀 Crafting scalable solutions [@Trendyol](https://www.linkedin.com/company/trendyolgroup) | Senior Software Engineer"
+    imageUrl = "/img/profile.jpeg"
+    imageWidth = 160
+    imageHeight = 160
+    imageTitle = "Profile Photo"
 
-  [params.footer]
-    showCopyright = true
-    showThemeAttribution = true
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/omerfarukalaca"
+  title = "Check out my projects"
 
-  [params.author]
-    name = "Ömer Faruk Alaca"
-    headline = "Software engineer by day, dad by night"
-    bio = "Building things at Trendyol and enjoying every moment with my little debugger"
-    links = [
-      { github = "https://github.com/omerfarukalaca" },
-      { linkedin = "https://linkedin.com/in/omerfarukalaca" }
-    ]
-
-[markup]
-  [markup.highlight]
-    style = "dracula"
-  [markup.goldmark.renderer]
-    unsafe = true
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "https://linkedin.com/in/omerfarukalaca"
+  title = "Connect with me"

@@ -1,43 +1,39 @@
-# Personal Website
+# Personal Portfolio Website
 
-This is my personal website built with [Hugo](https://gohugo.io/) and [Congo](https://github.com/jpanther/congo) theme. You can visit it at [omerfarukalaca.com](https://omerfarukalaca.com).
+This is my personal portfolio website built with [Hugo](https://gohugo.io/) and [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
 
 ## Features
 
-- Minimalist design
-- Responsive layout
-- Dark/Light mode support
-- Fast and lightweight
-- Easy to maintain
+- 🎨 Clean and minimalist design
+- 🌓 Dark/Light mode support
+- 📱 Fully responsive
+- 🚀 Fast and lightweight
+- 🔍 SEO optimized
 
-## Tech Stack
+## Local Development
 
-- Hugo - Static site generator
-- Congo Theme - Modern and clean theme
-- GitHub Pages - Hosting
-- GitHub Actions - CI/CD
-
-## Development
-
-To run the site locally:
-
+1. Clone the repository
 ```bash
-# Clone the repository
 git clone https://github.com/omerfarukalaca/omerfarukalaca.com.git
+```
 
-# Navigate to the directory
-cd omerfarukalaca.com
+2. Install Hugo
+```bash
+brew install hugo
+```
 
-# Start Hugo server
+3. Start the development server
+```bash
 hugo server -D
 ```
+
+The site will be available at `http://localhost:1313/`
 
 ## Credits
 
 - Built with [Hugo](https://gohugo.io/)
-- Theme: [Congo](https://github.com/jpanther/congo)
-- Development assistance: [Cursor](https://cursor.sh/) - AI-powered coding companion
-- Icons and emojis from [Emoji](https://emojipedia.org/)
+- Theme: [PaperMod](https://github.com/adityatelange/hugo-PaperMod)
+- Development assisted by [Cursor](https://cursor.sh/)
 
 ## License
 
