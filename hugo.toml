@@ -1,5 +1,5 @@
 baseURL = "https://omerfarukalaca.com/"
-title = "👨🏻‍💻"
+title = "Ömer Faruk Alaca | Senior Software Engineer"
 theme = "PaperMod"
 defaultContentLanguage = "en"
 languageCode = "en-us"
@@ -12,9 +12,9 @@ enableEmoji = true
 
 [params]
 env = "production"
-title = "👨‍💻"
-description = "Software Engineer"
-keywords = ["Blog", "Portfolio", "Software Engineer"]
+title = "Ömer Faruk Alaca"
+description = "Senior Software Engineer at Trendyol. Experienced in building scalable software solutions, web applications, and cloud technologies. Based in Turkey."
+keywords = ["Ömer Faruk Alaca", "Software Engineer", "Senior Developer", "Trendyol", "Web Development", "Cloud Computing", "Turkish Software Engineer", "Alaca"]
 author = "Ömer Faruk Alaca"
 images = ["/img/profile.jpeg"]
 DateFormat = "January 2, 2006"
@@ -41,7 +41,7 @@ label.iconHeight = "35"
   [params.profileMode]
     enabled = true
     title = "Ömer Faruk Alaca"
-    subtitle = "🚀 Crafting scalable solutions [@Trendyol](https://www.linkedin.com/company/trendyolgroup) | Senior Software Engineer"
+    subtitle = "🚀 Senior Software Engineer crafting scalable solutions [@Trendyol](https://www.linkedin.com/company/trendyolgroup)"
     imageUrl = "https://raw.githubusercontent.com/omerfarukalaca/omerfarukalaca.com/main/static/img/profile.jpeg"
     imageWidth = 160
     imageHeight = 160
